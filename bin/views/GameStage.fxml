@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.AmbientLight?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="1080.0" maxWidth="1920.0" prefHeight="1080.0" prefWidth="1920.0" styleClass="GameBackground" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="views.GameController">
+   <children>
+      <ImageView fx:id="imgView" fitHeight="720.0" fitWidth="432.0" layoutX="1457.0" layoutY="399.0" pickOnBounds="true" preserveRatio="true" styleClass="imgView" />
+      <TextField alignment="CENTER" disable="true" editable="false" focusTraversable="false" layoutX="425.0" layoutY="41.0" opacity="0.7" pickOnBounds="false" prefHeight="130.0" prefWidth="1076.0" style="-fx-background-radius: 20px;">
+         <font>
+            <Font size="67.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor>
+      </TextField>
+      <Button layoutX="32.0" layoutY="18.0" mnemonicParsing="false" onAction="#ID_Change" prefHeight="48.0" prefWidth="113.0" styleClass="idChange" text="아이디 변경">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="reload" layoutX="282.0" layoutY="18.0" mnemonicParsing="false" onAction="#initialize" prefHeight="48.0" prefWidth="113.0" styleClass="reload" text="다시하기">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="157.0" layoutY="18.0" mnemonicParsing="false" onAction="#Exit" prefHeight="48.0" prefWidth="113.0" styleClass="exitBtn" text="게임종료">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <TextField alignment="CENTER" disable="true" editable="false" focusTraversable="false" layoutX="269.0" layoutY="824.0" opacity="0.7" prefHeight="169.0" prefWidth="970.0" style="-fx-background-radius: 20px;">
+         <font>
+            <Font size="52.0" />
+         </font>
+      </TextField>
+      <Button fx:id="q" focusTraversable="false" layoutX="62.0" layoutY="362.0" mnemonicParsing="false" onAction="#keyboard" prefHeight="120.0" prefWidth="120.0" styleClass="keyboardBtn" text="Q" userData="Q">
+         <font>
+            <Font size="58.0" />
+         </font>
+      </Button>
+      <Button focusTraversable="false" layoutX="203.0" layoutY="362.0" mnemonicParsing="false" onAction="#keyboard" prefHeight="120.0" prefWidth="120.0" styleClass="keyboardBtn" text="W" userData="W">
+         <font>
+            <Font size="58.0" />
+         </font>
+      </Button>
+      <Button focusTraversable="false" layoutX="348.0" layoutY="362.0" mnemonicParsing="false" onAction="#keyboard" prefHeight="120.0" prefWidth="120.0" styleClass="keyboardBtn" text="E" userData="E">
+         <font>
+            <Font size="58.0" />
+         </font>
+      </Button>
+      <Button focusTraversable="false" layoutX="487.0" layoutY="362.0" mnemonicParsing="false" onAction="#keyboard" prefHeight="120.0" prefWidth="120.0" styleClass="keyboardBtn" text="R" userData="R">
+         <font>
+            <Font size="58.0" />
+         </font>
+      </Button>
+      <Button focusTraversable="false" layoutX="627.0" layoutY="362.0" mnemonicParsing="false" onAction="#keyboard" prefHeight="120.0" prefWidth="120.0" styleClass="keyboardBtn" text="T" userData="T">
+         <font>
+            <Font size="58.0" />
+         </font>
+      </Button>
+      <Button focusTraversable="false" layoutX="766.0" layoutY="362.0" mnemonicParsing="false" onAction="#keyboard" prefHeight="120.0" prefWidth="120.0" styleClass="keyboardBtn" text="Y" userData="Y">
+         <font>
+            <Font size="58.0" />
+         </font>
+      </Button>
+      <Button focusTraversable="false" layoutX="904.0" layoutY="362.0" mnemonicParsing="false" onAction="#keyboard" prefHeight="120.0" prefWidth="120.0" styleClass="keyboardBtn" text="U" userData="U">
+         <font>
+            <Font size="58.0" />
+         </font>
+      </Button>
+      <Button focusTraversable="false" layoutX="1042.0" layoutY="362.0" mnemonicParsing="false" onAction="#keyboard" prefHeight="120.0" prefWidth="120.0" styleClass="keyboardBtn" text="I" userData="I">
+         <font>
+            <Font size="58.0" />
+         </font>
+      </Button>
+      <Button focusTraversable="false" layoutX="1180.0" layoutY="362.0" mnemonicParsing="false" onAction="#keyboard" prefHeight="120.0" prefWidth="120.0" styleClass="keyboardBtn" text="O" userData="O">
+         <font>
+            <Font size="58.0" />
+         </font>
+      </Button>
+      <Button focusTraversable="false" layoutX="1321.0" layoutY="362.0" mnemonicParsing="false" onAction="#keyboard" prefHeight="120.0" prefWidth="120.0" styleClass="keyboardBtn" text="P" userData="P">
+         <font>
+            <Font size="58.0" />
+         </font>
+      </Button>
+      <Button focusTraversable="false" layoutX="139.0" layoutY="500.0" mnemonicParsing="false" onAction="#keyboard" prefHeight="120.0" prefWidth="120.0" styleClass="keyboardBtn" text="A" userData="A">
+         <font>
+            <Font size="58.0" />
+         </font>
+      </Button>
+      <Button focusTraversable="false" layoutX="278.0" layoutY="500.0" mnemonicParsing="false" onAction="#keyboard" prefHeight="120.0" prefWidth="120.0" styleClass="keyboardBtn" text="S" userData="S">
+         <font>
+            <Font size="58.0" />
+         </font>
+      </Button>
+      <Button focusTraversable="false" layoutX="417.0" layoutY="500.0" mnemonicParsing="false" onAction="#keyboard" prefHeight="120.0" prefWidth="120.0" styleClass="keyboardBtn" text="D" userData="D">
+         <font>
+            <Font size="58.0" />
+         </font>
+      </Button>
+      <Button focusTraversable="false" layoutX="555.0" layoutY="500.0" mnemonicParsing="false" onAction="#keyboard" prefHeight="120.0" prefWidth="120.0" styleClass="keyboardBtn" text="F" userData="F">
+         <font>
+            <Font size="58.0" />
+         </font>
+      </Button>
+      <Button focusTraversable="false" layoutX="692.0" layoutY="500.0" mnemonicParsing="false" onAction="#keyboard" prefHeight="120.0" prefWidth="120.0" styleClass="keyboardBtn" text="G" userData="G">
+         <font>
+            <Font size="58.0" />
+         </font>
+      </Button>
+      <Button focusTraversable="false" layoutX="828.0" layoutY="500.0" mnemonicParsing="false" onAction="#keyboard" prefHeight="120.0" prefWidth="120.0" styleClass="keyboardBtn" text="H" userData="H">
+         <font>
+            <Font size="58.0" />
+         </font>
+      </Button>
+      <Button focusTraversable="false" layoutX="964.0" layoutY="500.0" mnemonicParsing="false" onAction="#keyboard" prefHeight="120.0" prefWidth="120.0" styleClass="keyboardBtn" text="J" userData="J">
+         <font>
+            <Font size="58.0" />
+         </font>
+      </Button>
+      <Button focusTraversable="false" layoutX="1100.0" layoutY="500.0" mnemonicParsing="false" onAction="#keyboard" prefHeight="120.0" prefWidth="120.0" styleClass="keyboardBtn" text="K" userData="K">
+         <font>
+            <Font size="58.0" />
+         </font>
+      </Button>
+      <Button focusTraversable="false" layoutX="1236.0" layoutY="500.0" mnemonicParsing="false" onAction="#keyboard" prefHeight="120.0" prefWidth="120.0" styleClass="keyboardBtn" text="L" userData="L">
+         <font>
+            <Font size="58.0" />
+         </font>
+      </Button>
+      <Button focusTraversable="false" layoutX="271.0" layoutY="638.0" mnemonicParsing="false" onAction="#keyboard" prefHeight="120.0" prefWidth="120.0" styleClass="keyboardBtn" text="Z" userData="Z">
+         <font>
+            <Font size="58.0" />
+         </font>
+      </Button>
+      <Button focusTraversable="false" layoutX="411.0" layoutY="638.0" mnemonicParsing="false" onAction="#keyboard" prefHeight="120.0" prefWidth="120.0" styleClass="keyboardBtn" text="X" userData="X">
+         <font>
+            <Font size="58.0" />
+         </font>
+      </Button>
+      <Button focusTraversable="false" layoutX="551.0" layoutY="638.0" mnemonicParsing="false" onAction="#keyboard" prefHeight="120.0" prefWidth="120.0" styleClass="keyboardBtn" text="C" userData="C">
+         <font>
+            <Font size="58.0" />
+         </font>
+      </Button>
+      <Button focusTraversable="false" layoutX="691.0" layoutY="638.0" mnemonicParsing="false" onAction="#keyboard" prefHeight="120.0" prefWidth="120.0" styleClass="keyboardBtn" text="V" userData="V">
+         <font>
+            <Font size="58.0" />
+         </font>
+      </Button>
+      <Button focusTraversable="false" layoutX="831.0" layoutY="638.0" mnemonicParsing="false" onAction="#keyboard" prefHeight="120.0" prefWidth="120.0" styleClass="keyboardBtn" text="B" userData="B">
+         <font>
+            <Font size="58.0" />
+         </font>
+      </Button>
+      <Button focusTraversable="false" layoutX="970.0" layoutY="638.0" mnemonicParsing="false" onAction="#keyboard" prefHeight="120.0" prefWidth="120.0" styleClass="keyboardBtn" text="N" userData="N">
+         <font>
+            <Font size="58.0" />
+         </font>
+      </Button>
+      <Button focusTraversable="false" layoutX="1108.0" layoutY="638.0" mnemonicParsing="false" onAction="#keyboard" prefHeight="120.0" prefWidth="120.0" styleClass="keyboardBtn" text="M" userData="M">
+         <font>
+            <Font size="58.0" />
+         </font>
+      </Button>
+      <AmbientLight color="CHARTREUSE" layoutX="164.0" layoutY="171.0" lightOn="true" />
+      <Line endX="820.0" layoutX="417.0" layoutY="794.0" startX="-144.0" stroke="#80ff00" strokeWidth="2.0" />
+      <Text fx:id="noUseFlag" layoutX="1622.0" layoutY="117.0" strokeType="OUTSIDE" strokeWidth="0.0" text="남은 횟수 표시" textAlignment="CENTER" wrappingWidth="235.49999463558197">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Text>
+      <Text fx:id="SuccessField" cache="true" cacheHint="SCALE_AND_ROTATE" layoutX="424.0" layoutY="131.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="1076.0000038146973">
+         <font>
+            <Font size="67.0" />
+         </font>
+      </Text>
+      <Text fx:id="useBox" layoutX="270.0" layoutY="928.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-background-radius: 20px;" textAlignment="CENTER" wrappingWidth="969.9999904632568">
+         <font>
+            <Font size="54.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

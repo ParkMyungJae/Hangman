@@ -1,0 +1,153 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.login {
+	-fx-background-image: url("/imgs/login_bg.jpg");
+	-fx-background-size: 100.0% 100.0%;
+	-fx-background-repeat: no-repeat;
+}
+
+.main {
+	-fx-font-family: "Arial Black";
+	-fx-fill: #818181;
+	-fx-effect: innershadow( three-pass-box , rgba(0.0,0.0,0.0,0.7) , 6.0, 0.0 , 0.0 , 2.0 );
+}
+
+.register {
+	-fx-background-image: url("/imgs/login_bg.jpg");
+	-fx-background-size: 100.0% 100.0%;
+	-fx-background-repeat: no-repeat;
+}
+
+.login_btn {
+	-fx-background-radius: 15.0px;
+	-fx-background-color: #007bff;
+	-fx-border-color: #007bff;
+	-fx-border-radius: 15.0px;
+	-fx-text-fill: #fff;
+}
+
+.register_btn {
+	-fx-background-radius: 15.0px;
+	-fx-background-color: #007bff;
+	-fx-border-color: #007bff;
+	-fx-border-radius: 15.0px;
+	-fx-text-fill: #fff;
+}
+
+.login_btn:hover {
+	-fx-background-color: #0069d9;
+	-fx-border-color: #0062cc;
+}
+
+.register_btn:hover {
+	-fx-background-color: #0069d9;
+	-fx-border-color: #0062cc;
+}
+
+.login_btn:pressed {
+    -fx-background-color: #0044cc;
+}
+
+.register_btn:pressed {
+    -fx-background-color: #0044cc;
+}
+
+.readyBag {
+	-fx-background-image: url("/imgs/ready.jpg");
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+	-fx-background-size: 1920.0px 1100.0px;
+}
+
+.exitBtn {
+	-fx-background-color: #dc3545;
+	-fx-border-color: #dc3545;
+	-fx-text-fill: white;
+	-fx-cursor: hand;
+	-fx-border-radius: 20.0px;
+	-fx-background-radius: 20.0px;
+}
+
+.startBtn {
+	-fx-background-radius: 20.0px;
+	-fx-background-color: #007bff;
+	-fx-border-color: #007bff;
+	-fx-border-radius: 20.0px;
+	-fx-text-fill: #fff;
+	-fx-cursor: hand;
+}
+
+.idChange {
+	-fx-background-radius: 20.0px;
+	-fx-background-color: rgb(40.0, 167.0, 69.0);
+	-fx-border-color: rgb(40.0, 167.0, 69.0);
+	-fx-border-radius: 20.0px;
+	-fx-text-fill: #fff;
+	-fx-cursor: hand;
+}
+
+.idChange:hover {
+	-fx-background-color: rgb(40.0, 197.0, 69.0);
+	-fx-border-color: rgb(40.0, 197.0, 69.0);
+}
+
+.idChange:pressed {
+	-fx-background-color: rgb(40.0, 137.0, 69.0);
+	-fx-border-color: rgb(40.0, 137.0, 69.0);
+}
+
+.startBtn:hover {
+	-fx-background-color: rgb(0.0, 135.0, 310.0);
+	-fx-border-color: rgb(0.0, 135.0, 310.0);
+}
+
+.startBtn:pressed {
+    -fx-background-color: #0062cc;
+}
+
+.exitBtn:hover {
+	-fx-background-color: rgb(250.0, 53.0, 69.0);
+}
+
+.exitBtn:pressed {
+	-fx-background-color: rgb(180.0, 53.0, 69.0);
+}
+
+.GameBackground {
+	-fx-background-image: url("/imgs/GameBag.jpg");
+	-fx-background-position: center;
+	-fx-background-size: cover;
+}
+
+.keyboardBtn {
+	-fx-border-radius: 50.0%;
+	-fx-background-radius: 50.0%;
+	-fx-background-color: rgb(247.0, 166.0, 27.0);
+	-fx-cursor: hand;
+	-fx-effect: dropshadow(three-pass-box , rgba(0,0,0,0.7) , 15, 0 , 6 , 6);
+}
+
+.keyboardBtn:hover {
+	-fx-background-color: rgb(227.0, 146.0, 7.0);
+}
+
+.keyboardBtn:pressed {
+	-fx-background-color: rgb(187.0, 116.0, 7.0);
+}
+
+.reload {
+	-fx-background-color: rgb(23, 162, 184);
+	-fx-border-color: rgb(23, 162, 184);
+	-fx-border-radius: 20.0px;
+	-fx-text-fill: #fff;
+	-fx-cursor: hand;
+	-fx-background-radius: 20.0px;
+}
+
+.reload:hover {
+	-fx-background-color:  rgb(33, 182, 194);
+}
+
+.reload:pressed {
+	-fx-background-color: rgb(13, 142, 164);
+}
